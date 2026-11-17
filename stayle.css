@@ -1,0 +1,66 @@
+html {
+    background-image: url("C:\Users\ATG\OneDrive\Desktop\PLAY WITH ME\263b6fec-5d58-4942-a532-83d785df89b4-t.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body {
+    background: rgba(255, 255, 255, 0.74);
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    font-family: 'raleway';
+    padding: 20px;
+    border-radius: 10px q;
+}
+h1 p {
+    text-align: center;
+    margin: auto;
+}
+label {
+    display: block;
+    margin: 1em;
+}
+input select {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    padding: 0.3em;
+    background-color: #fbfbfb;
+    border: solid 1px #ccc;
+    resize: vertical;
+    border-radius: 10px;
+}
+input[type=checkbox], input[type=radio] {
+    display: inline;
+    width: auto;
+}
+.inline-label {
+    display: inline;
+    width: auto;
+}
+input[type=submit],
+input[type=reset]{
+    background-color: black;
+    color: #f6ecec;
+    margin: 100px;
+    border: solid;
+    border-radius: 20px;
+}
+input[type=submit]:hover,
+input[type=submit]:focus{
+    background-color: red;
+    outline: none;
+}
+input[type=reset]:hover,
+input[type=reset]:focus{
+    background-color: rgb(30, 246, 34);
+    outline: none;
+}
+input[type=reset] ,
+input[type=submit] {
+    background: rgb(27,  44, 141 );
+    color: white;
+    border-radius: 10px;
+}
+
+
